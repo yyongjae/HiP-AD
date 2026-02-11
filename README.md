@@ -65,7 +65,7 @@ ln -s /data4/Bench2Drive/splits /home/path/to/Hipad/data/
 python ./tools/data_converter/bench2drive_converter.py
 ```
 
-3. create npy files by using kmeans clustering.
+3. create npy files by using kmeans clustering. --> 이건 만들어져 있어서 굳이 또 안해도 될 거 같음. 시간 오래걸림
 ```bash
 bash ./tools/kmeans/kemans.sh
 ```
