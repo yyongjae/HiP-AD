@@ -56,7 +56,8 @@ cd ../../../
 ### Data Preparation
 1. download the [Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive) [Base] dataset with the official [configuration](https://github.com/Thinklab-SJTU/Bench2DriveZoo/blob/uniad/vad/docs/DATA_PREP.md).
 ```bash
-ln -s bench2drive_root ./data/bench2drive
+ln -s /data4/Bench2Drive/bench2drive /home/path/to/Hipad/data/
+ln -s /data4/Bench2Drive/splits /home/path/to/Hipad/data/
 ```
 
 2. create pkl files from data converter.
