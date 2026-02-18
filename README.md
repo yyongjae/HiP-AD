@@ -56,7 +56,8 @@ cd ../../../
 ### Data Preparation
 1. download the [Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive) [Base] dataset with the official [configuration](https://github.com/Thinklab-SJTU/Bench2DriveZoo/blob/uniad/vad/docs/DATA_PREP.md).
 ```bash
-ln -s bench2drive_root ./data/bench2drive
+ln -s /data4/Bench2Drive/bench2drive /home/path/to/Hipad/data/
+ln -s /data4/Bench2Drive/splits /home/path/to/Hipad/data/
 ```
 
 2. create pkl files from data converter.
@@ -64,7 +65,7 @@ ln -s bench2drive_root ./data/bench2drive
 python ./tools/data_converter/bench2drive_converter.py
 ```
 
-3. create npy files by using kmeans clustering.
+3. create npy files by using kmeans clustering. --> 이건 만들어져 있어서 굳이 또 안해도 될 거 같음. 시간 오래걸림
 ```bash
 bash ./tools/kmeans/kemans.sh
 ```
